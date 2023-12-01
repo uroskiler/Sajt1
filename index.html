@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <title>Auto Svet</title>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Uroš Jovanović 92/22"/>
+        <meta name="keywords" content="auto, automobil, sajam, izložba, model automobila, cena, cenovnik, ulaznica"/>
+        <meta name="description" content="Auto Svet - Izložba savremenih automobila."/>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+        <!--Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400&display=swap" rel="stylesheet"/>
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/d66833be4d.js" crossorigin="anonymous"></script>
+        <!--CSS-->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!--Header sa logom i navigacionim menijem-->
+        <div class="header">
+            <div class="l"></div>
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt="logo"/></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="index.html">Početna</a></li>
+                        <li><a href="#about">O nama</a></li>
+                        <li><a href="assets/ponuda.html">Ponuda</a></li>
+                        <li><a href="assets/kontakt.html">Kontakt</a></li>
+                        <li><a href="assets/autor.html">Autor</a></li>
+                    </ul>
+                </nav>
+                <div class="cleaner"></div>
+            </header>
+            <div class="r"></div>
+            <div class="cleaner"></div>
+        </div>
+        <!--Centralni sadržaj stranice 'Početna'-->
+        <main>
+            <section class="a-t pr">
+                <h1>Izložba automobila</h1>
+                <div class="flex center section">
+                    <div id="izlozba-text">
+                        <p>Dobro došli na zvaničnu stanicu o tradicionalnom sajmu i izložbi automobila <mark>AUTO SVET</mark>.</p>
+                        <p>Doživite uzbuđenje automobilske industrije na našem sajmu, gde ljubitelji automobila mogu testirati vozila, razgovarati sa stručnjacima i pronaći svoj savršeni automobil.</p>
+                    </div>
+                    <div id="izlozba-img">
+                        <img src="assets/img/automobil1.jpg" alt="automobil"/>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="a-t pr">
+                <h1>saznajte više o nama</h1>
+                <h2>Cenovnik karata</h2>
+                <div class="pricelist flex around">
+                    <div class="price" id="p-1">
+                        <h3>666.00 din</h3>
+                        <p>Klasična individualna ulaznica</p>
+                    </div>
+                    <div class="price" id="p-2">
+                        <h3>1000.00 din</h3>
+                        <p>Vip individualna ulaznica</p>
+                    </div>
+                    <div class="price" id="p-3">
+                        <h3>1300.00 din</h3>
+                        <p>Porodična ulaznica(2 odraslih i dete)</p>
+                    </div>
+                </div>
+                <h2>Neka brojke govore same za sebe</h2>
+            </section>
+        </main>
+        <section id="statistic" class="flex around">
+            <div class="a-l pr">
+                <h3>5</h3>
+                <p>Izložbenih prostora</p>
+            </div>
+            <div class="a-l pr">
+                <h3>42000</h3>
+                <p>Zadovoljnih posjetilaca</p>
+            </div>
+            <div class="a-r pr">
+                <h3>320</h3>
+                <p>Modela automobila</p>
+            </div>
+            <div class="a-r pr">
+                <h3>22</h3>
+                <p>Godine duga tradicija</p>
+            </div>
+        </section>
+        <!--Footer sa korisnim linkovima-->
+        <div class="pre-footer">
+            <div class="footer-logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="logo"/></a>
+            </div>
+        </div>
+        <footer>
+            <div class="flex around">
+                <div>
+                    <h3>Kako do nas</h3>
+                    <ul id="i-r">
+                        <li><span><i class="fas fa-map-marker-alt"></i></span>&nbsp;&nbsp; Jurija Gagarina 165</li>
+                        <li><span><i class="fas fa-envelope"></i></span>&nbsp;&nbsp; auto.svet&#64gmail.con </li>
+                        <li><span><i class="fas fa-phone-alt"></i></span>&nbsp;&nbsp; +381 61 234-56-78</li>
+                        <li><span><i class="fas fa-globe"></i></span>&nbsp;&nbsp; www.auto.svet.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Korisni linkovi</h3>
+                    <ul id="i-g">
+                        <li><a href="assets/xml/sitemap.xml">S I T E M A P <i class="fas fa-sitemap"></i></a></li>
+                        <li><a href="assets/css/style.css">C S S <i class="fab fa-css3"></i></a></li>
+                        <li><a href="assets/xml/rss.xml">R S S <i class="fas fa-rss"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Pretplatite se</h3>
+                    <p>Upišite adresu elektronske pošte na koju ćemo vas obaveštavati o inovacijama i novitetima.</p>
+                    <form action="#" class="subscribe">
+                        <input type="text" id="submit-emalil"/>
+                        <button type="submit" id="submit-btn"><i class="fas fa-paper-plane fa-flip-horizontal"></i></button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <p><mark>Uroš Jovanović</mark> dizajn &nbsp;&nbsp; | &nbsp;&nbsp; &copy; Copyright <a href="assets/autor.html">Uroš Jovanović</a>. Sva autorska prava su zadržana.</p>
+        </footer>
+    </body>
+</html>
