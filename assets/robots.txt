@@ -1,0 +1,5 @@
+User-agent:*
+Disallow:/admin/
+Disallow:/autor.html
+
+Sitemap: https://.../sitemap.xml

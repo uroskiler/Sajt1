@@ -1,0 +1,26 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://.../index.html</loc>
+        <lastmod>2023-11-28</lastmod>
+        <changefreq>dayly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://.../assets/kontakt.html</loc>
+        <lastmod>2023-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://.../assets/ponuda.html</loc>
+        <lastmod>2023-11-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://.../assets/autor.html</loc>
+        <lastmod>2023-11-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+</urlset>
