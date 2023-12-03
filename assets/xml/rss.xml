@@ -1,16 +1,16 @@
 <rss version="2.0">
     <channel>
         <title>Notifikacije</title>
-        <link>https://.../index.html</link>
+        <link>https://uroskiler.github.io/Sajt1/index.html</link>
         <description>Šta je novo na Auto Svet?</description>
         <item>
             <title>Novo u našoj ponudi</title>
-            <link>https://.../assets/ponuda.html</link>
+            <link>https://uroskiler.github.io/Sajt1/assets/ponuda.html</link>
             <description>Nove ponude na našem sajmu!</description>
         </item>
         <item>
             <title>Više o nama</title>
-            <link>https://.../index.html/#about</link>
+            <link>https://uroskiler.github.io/Sajt1/index.html#about</link>
             <description>Pročitajte više podataka o nama!</description>
         </item>
     </channel>
